@@ -1,0 +1,31 @@
+:root {
+    --vermelho:#FF0000;
+    --preto: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.serie-principal{
+    font-size: 15px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('img-series/capa.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.serie-principal .titulo{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family:'Trebuchet MS', Arial, sans-serif ;
+}
+.serie-principal .container{
+    width: 70%;
+}
